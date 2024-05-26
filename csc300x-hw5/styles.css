@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#searchBox {
+    margin-top: 20px;
+}
+
+#searchInput, #searchButton {
+    padding: 10px;
+}
+
+#searchButton {
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+#loading {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+section#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.repository {
+    border: 1px solid #ddd;
+    border-radius: 4ch;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.repository:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
